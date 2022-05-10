@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ArrayList_1 = require("./ArrayList");
+var arrayList = new ArrayList_1.ArrayList();
+arrayList.add("huy");
+arrayList.add("uyen");
+arrayList.add("tung");
+arrayList.add("mo");
+console.log(arrayList.container);
+arrayList.get(1);
+console.log(arrayList.get(1));
+arrayList.remove();
+console.log(arrayList.container);
+console.log(arrayList.size());
